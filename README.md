@@ -41,4 +41,6 @@ Coming soon.
 
 ## License
 
-MIT
+Apache License 2.0 - See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
+
+Copyright 2025 Jonathan da Silva Santos
