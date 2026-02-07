@@ -1,0 +1,37 @@
+# Deny everything by default
+*
+
+# Allow directory traversal
+!*/
+
+# Production extension files
+!manifest.json
+!service-worker-loader.js
+!assets/*.js
+!assets/*.css
+!icons/*.png
+!src/sidepanel/index.html
+!src/options/index.html
+
+# Repo metadata
+!README.md
+!LICENSE
+!CHANGELOG.md
+!.gitignore
+
+# NEVER allow (safety net)
+*.map
+*.ts
+*.tsx
+.env*
+node_modules/
+.vite/
+package.json
+tsconfig.json
+vite.config.*
+*.test.*
+*.spec.*
+__tests__/
+.claude/
+mandatory_*.txt
+debug-proxy/
